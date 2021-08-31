@@ -1,10 +1,10 @@
-This is a simple wrapper package which loads an separately installed GMSH SDK into Julia.
+This is a simple wrapper package which loads a separately installed GMSH SDK into Julia.
 
 1. Install gmsh SDK wherever you prefer and however you like.
 
 2. Add the directory containing "gmsh.jl" into JULIA_LOAD_PATH
 ```
-$ JULIA_LOAD_PATH=<location>:$JULIA_LOAD_PATH
+$ export JULIA_LOAD_PATH=<location>:$JULIA_LOAD_PATH
 ```
 
 3. Add the directory containing the dynamic library file to $PATH, $JULIA_LOAD_PATH or something else. To be honest, I'm not 100% sure how it is searched from the system... sorry.
