@@ -13,7 +13,9 @@ or in Julia REPL, hit "Ctrl + ]" to activate package manager and type
 ```
 (v1.6) pkg> add SimpleGmsh
 ```
-Note: preferable create a new environment before step 3.
+
+**Note:** preferably create [a new environment](https://pkgdocs.julialang.org/v1.2/environments/). before step 3.
+
 4. Now you can use 
 ```
 using/import SimpleGmsh: gmsh
