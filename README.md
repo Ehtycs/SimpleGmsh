@@ -12,6 +12,7 @@ $ JULIA_LOAD_PATH=<location>:$JULIA_LOAD_PATH
 **Alternatively:** just copy & paste "gmsh.jl" and the library file to your working folder. It should be found from there.
 
 4. Add SimpleGmsh package into your Julia environment from GitHub by 
+
 ```
 julia> using Pkg; Pkg.add(url="https://github.com/Ehtycs/SimpleGmsh")
 ``` 
