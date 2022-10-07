@@ -18,4 +18,6 @@ else
     include(gmsh_apis[1])
 end
 
+export gmsh
+
 end # module
